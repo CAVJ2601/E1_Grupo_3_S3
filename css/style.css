@@ -6,6 +6,7 @@ body{
 
 header{
     background-color: #41C9E2;
+    padding: 20px;
 }
 
 main{
@@ -24,11 +25,38 @@ footer img{
     width: 50px;
     align-items: center;
     padding: 10px;
-}
-
+    }
 /*CREAR FACHADA PAGINA INICIO*/
 
+.caja{
+    width: 1080px;
+    position: relative;
+    margin: 0 auto;
+}
 
+nav{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+nav ul{
+    display: flex;
+    width: 10%;
+    margin-right: 10%;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
 
 /*CREAR FORMULARIO PARA CONSULTA*/
 
