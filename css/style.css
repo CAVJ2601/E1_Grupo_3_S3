@@ -1,0 +1,27 @@
+/* PARTES EN COMÚN PARA LAS P+AGINAS*/
+
+body{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+header{
+    background-color: #41C9E2;
+}
+
+main{
+    background-color: #ACE2E1;
+}
+
+footer{
+    background-color: #F7EEDD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer img{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    padding: 10px;
+}
