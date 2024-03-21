@@ -15,16 +15,18 @@ main{
 
 footer{
     background-color: #F7EEDD;
-    display: flex;
-    flex-direction: row;
+    text-align: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 footer img{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 140px;
     align-items: center;
     padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
     }
 /*CREAR FACHADA PAGINA INICIO*/
 
